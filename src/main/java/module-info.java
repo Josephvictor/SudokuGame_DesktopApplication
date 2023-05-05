@@ -3,6 +3,6 @@ module game.sudoku.sudokugamejavadesktopapp {
     requires javafx.fxml;
 
 
-    opens game.sudoku.sudokugamejavadesktopapp to javafx.fxml;
-    exports game.sudoku.sudokugamejavadesktopapp;
+    opens game.sudoku to javafx.fxml;
+    exports game.sudoku;
 }

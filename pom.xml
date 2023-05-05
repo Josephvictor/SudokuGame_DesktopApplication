@@ -61,7 +61,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                game.sudoku.sudokugamejavadesktopapp/game.sudoku.sudokugamejavadesktopapp.HelloApplication
+                                game.sudoku.sudokugamejavadesktopapp/game.sudoku.SudokuApplication
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
