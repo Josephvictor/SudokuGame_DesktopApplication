@@ -1,8 +1,8 @@
 package game.sudoku;
 
+import game.sudoku.userinterface.IUserInterfaceContract;
+import game.sudoku.userinterface.UserInterfaceImpl;
 import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
