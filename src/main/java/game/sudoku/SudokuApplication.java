@@ -1,5 +1,6 @@
 package game.sudoku;
 
+import game.sudoku.buildlogic.SudokuBuildLogic;
 import game.sudoku.userinterface.IUserInterfaceContract;
 import game.sudoku.userinterface.UserInterfaceImpl;
 import javafx.application.Application;

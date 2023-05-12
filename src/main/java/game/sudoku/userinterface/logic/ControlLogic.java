@@ -1,5 +1,6 @@
 package game.sudoku.userinterface.logic;
 
+import game.sudoku.computationallogic.GameLogic;
 import game.sudoku.constants.GameState;
 import game.sudoku.constants.Messages;
 import game.sudoku.problemdomain.IStorage;
@@ -48,7 +49,7 @@ public class ControlLogic implements IUserInterfaceContract.EventListener{
     public void onDialogClick() {
         try{
             storage.updateGameData(
-                    GameLogic.getNewGame()
+                    GameLogic.getNewgame()
             );
 
             view.updateBoard(storage.getGameData());
